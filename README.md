@@ -9,6 +9,7 @@ I have explained the code with comments for every section in the scripts.
 # tweets_cleaned.py
 
 tweets_cleaned.py will clean the tweets that are imported from the text file and outputs the text and timestamp to the file ft1.txt
+The incomplete tweets are skipped without any output.
 
 - Dependencies:   
 os  
@@ -17,6 +18,7 @@ json
 # average_degree.py
 
 average_degree.py will use hashtags from the tweets that are imported from the text file and outputs the avg degree to the file ft2.txt
+The incomplete tweets are skipped and the output for those is 0 in ft2.txt
 
 - Dependencies:    
 os  
