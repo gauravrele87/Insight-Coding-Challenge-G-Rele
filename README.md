@@ -11,18 +11,16 @@ I have tried to explain the code with comments for every section.
 tweets_cleaned.py will clean the tweets that are imported from the text file and outputs the text and timestamp to the file ft1.txt
 
 - Dependencies: 
-os
-json
-
-
+os  
+json  
 
 # average_degree.py
 
 average_degree.py will use hashtags from the tweets that are imported from the text file and outputs the avg degree to the file ft2.txt
 
-- Dependencies: 
-os
-json
-re (unused since the line is commented out yet useful)
-itertools
-collections import defaultdict
+- Dependencies:    
+os  
+json  
+re (unused since the line is commented out yet useful)  
+itertools  
+collections import defaultdict  
